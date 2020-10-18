@@ -25,12 +25,13 @@ body {
 /* Header */
 .container-hb {
   width: 100%;
-  height: 80px;
+  height: 90px;
   background-color: #F4F9FD;
   margin: auto;
+  border-bottom: 2px solid #32495B;
 }
 .container-h {
-  width: 80%;
+  width: 70%;
   height: 80px;
   margin: auto;
   position: relative;
@@ -97,12 +98,12 @@ body {
 
 .container-nb {
   width: 100%;
-  height: 80px;
+  height: 90px;
   background-color: white;
   margin: auto;
 }
 .container-n {
-  width: 80%;
+  width: 70%;
   height: 80px;
   margin: auto;
   position: relative;
@@ -134,6 +135,7 @@ body {
   text-align: right;
   margin-top: 30px;
   display: inline-block;
+  overflow: hidden;
 }
 .left-nav img {
   text-decoration: none;
@@ -159,18 +161,17 @@ body {
 }
 .container-imgb {
   width: 100%;
-  height: 790px;
-  background-color: #FFF1EE;
+  height: 690px;
+  background-color: #FFF4EF;
   margin: auto;
   color: #32495B;
   background-image: url(../img/jumbotron.png);
   background-repeat: no-repeat;
-  background-position: bottom ;
-  background-size: 100vw 800px;
+  background-position: right bottom;
   position: relative;
 }
 .container-img {
-  width: 80%;
+  width: 70%;
   height: 800px;
   margin: auto;
 }
@@ -182,13 +183,14 @@ body {
   transform: translateY(-50%);
 }
 .text-hero h1 {
-  font-size: 2.8em;
-  font-weight: 800;
+  font-size: 3.5em;
+  font-weight: 600;
   margin-bottom: 40px;
 }
 .text-hero p:nth-child(2) {
   font-size: 18px;
   margin-bottom: 60px;
+  line-height: 30px;
 }
 .text-hero a {
   border: 1px solid #FE775A;
@@ -210,13 +212,13 @@ body {
 
 .middle-line {
   width: 100vw;
-  height: 95px;
+  height: 85px;
   background-color: #AFEBE4;
   position: absolute;
   right: 0;
   bottom: 0;
-  border-top: 3px solid #33475B;
-  border-bottom: 3px solid #33475B;
+  border-top: 4px solid #33475B;
+  border-bottom: 4px solid #33475B;
   overflow: hidden;
 }
 /* /middle line */
@@ -225,12 +227,12 @@ body {
 
 .container-mt {
   width: 100%;
-  height: 1200px;
+  height: 1800px;
   background-color: #F4F9FD;
   color: #32495B;
 }
 .container-img-h {
-  width: 80%;
+  width: 70%;
   height: 800px;
   margin: auto;
 }
@@ -252,19 +254,114 @@ body {
 
 .white-first-row{
   width: 100%;
-  height: 300px;
+  height: 400px;
   background-color: white;
-  z-index: 100;
-  border: 1px solid black;
+  border: 3px solid #EBF0F4;
+  border-radius: 5px;
+  position: relative;
 }
-.first-row-img {
-  width: 50%;
+.first-col-img {
+  width: 40%;
   height: 100%;
   position: relative;
 }
-.first-row-img img {
+.first-col-img img {
   position: absolute;
   top: 15%;
   left: 15%;
 }
-.first-row-img a
+.first-col-img a {
+  border: 1px solid #FE775A;
+  background-color: #FE775A;
+  padding: 20px 40px;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  position: absolute;
+  top: 60%;
+  left: 15%;
+}
+
+.second-col-img {
+  width: 60%;
+  height: 100%;
+  text-align: left;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  line-height: 2em;
+}
+.second-col-img h2:nth-child(1) {
+  padding-bottom: 20px;
+}
+.second-col-img p:nth-child(2) {
+  padding-bottom: 30px;
+  font-size: 18px;
+}
+.second-col-img hr {
+  display: inline-block;
+  width: 50%;
+  margin: 10px;
+}
+.second-col-img.float-left > h2:nth-child(2) {
+  width: 40%;
+}
+.second-col-img i {
+  color:  #FE775A;
+  padding-top: 30px;
+  padding-right: 30px;
+}
+.second-col-img span {
+  padding-right: 30px;
+}
+
+.col-3 {
+  width: 30%;
+  height: 700px;
+  background-color: white;
+  border: 3px solid #EBF0F4;
+  border-radius: 5px;
+  margin-top: 3%;
+  line-height: 2em;
+  position: relative;
+}
+.middle-col {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.col-3-top {
+  width: 80%;
+  position: absolute;
+  left:  50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+.col-3-top img {
+  margin-bottom: 20px;
+  max-height: 100px;
+}
+.col-3-top h2 {
+  margin-bottom: 20px;
+}
+.col-3-top p {
+  margin-bottom: 70px;
+}
+.col-3-top > h2:nth-child(5){
+  margin-top: 20px;
+}
+.btn-orange {
+  border: 1px solid #FE775A;
+  background-color: #FE775A;
+  padding: 20px 40px;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+}
+.col-3-top ul {
+  list-style: none;
+  text-align: left;
+  margin-bottom: 90px;
+}
+.col-3 ul  li i {
+  color: #FE775A;
+}
