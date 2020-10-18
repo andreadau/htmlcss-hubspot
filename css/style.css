@@ -173,7 +173,6 @@ body {
   width: 80%;
   height: 800px;
   margin: auto;
-  position: relative;
 }
 .text-hero {
   max-width: 500px;
@@ -210,12 +209,62 @@ body {
 /* middle line */
 
 .middle-line {
-  width: 100%;
+  width: 100vw;
   height: 95px;
   background-color: #AFEBE4;
   position: absolute;
-  top: 855px;
+  right: 0;
+  bottom: 0;
   border-top: 3px solid #33475B;
   border-bottom: 3px solid #33475B;
-
+  overflow: hidden;
 }
+/* /middle line */
+
+/* Main */
+
+.container-mt {
+  width: 100%;
+  height: 1200px;
+  background-color: #F4F9FD;
+  color: #32495B;
+}
+.container-img-h {
+  width: 80%;
+  height: 800px;
+  margin: auto;
+}
+
+.first-para-main {
+  width: 100%;
+  line-height: 1.8em;
+}
+.first-para-main  {
+  text-align: center;
+  padding: 100px;
+}
+.first-para-main h1 {
+  margin-bottom: 20px;
+}
+.first-para-main h1 {
+  line-height: 2em;
+}
+
+.white-first-row{
+  width: 100%;
+  height: 300px;
+  background-color: white;
+  z-index: 100;
+  border: 1px solid black;
+}
+.first-row-img {
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+.first-row-img img {
+  position: absolute;
+  top: 15%;
+  left: 15%;
+}
+.first-row-img a
