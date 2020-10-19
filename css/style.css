@@ -35,6 +35,7 @@ body {
   background-color: gray;
   margin: 0;
   font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
+  min-width:1400px
 }
 
 /* Header */
@@ -159,7 +160,7 @@ body {
   text-decoration: none;
   color: #32495B;
   position: absolute;
-  top: 75%;
+  top: 65%;
   transform: translateY(-50%);
 }
 .right-nav a {
@@ -348,7 +349,7 @@ body {
   margin-right: 5%;
 }
 .col-3-top {
-  width: 80%;
+  width: 70%;
   position: absolute;
   left:  50%;
   transform: translateX(-50%);
@@ -383,18 +384,28 @@ body {
 .col-3 ul  li i {
   color: #FE775A;
 }
-
+.border-right{
+  width: 100%;
+  font-size: 20px;
+}
+.border-right::before{
+    background-color: #899397;
+    display: block;
+    width: 100%;
+    height: 1px;
+}
+/* /Top Main */
 /* Middle Main */
 
 .container-bt {
   width: 100%;
-  height: 600px;
+  height: 650px;
   color: white;
   background: linear-gradient(45deg, #00a5bc, #00bda6);
 }
 .container-middle-main {
   width: 70%;
-  height: 600px;
+  height: 650px;
   margin: auto;
 }
 .text-middle-main {
@@ -449,4 +460,19 @@ body {
 .second-row-middle p{
   padding-top: 10px;
   font-size: 13px;
+}
+
+/* /Middle main */
+/* Bottom Main */
+
+.container-et {
+  width: 100%;
+  height: 700px;
+  color: black;
+  background: white;
+}
+.container-bottom-main {
+  width: 70%;
+  height: 700px;
+  margin: auto;
 }
