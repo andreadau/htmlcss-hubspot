@@ -35,7 +35,7 @@ body {
   background-color: gray;
   margin: 0;
   font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
-  min-width:1400px
+  min-width:1400px;
 }
 
 /* Header */
@@ -380,6 +380,7 @@ body {
   list-style: none;
   text-align: left;
   margin-bottom: 90px;
+  max-height: 400px;
 }
 .col-3 ul  li i {
   color: #FE775A;
@@ -468,11 +469,68 @@ body {
 .container-et {
   width: 100%;
   height: 700px;
-  color: black;
+  color: #33475B;
   background: white;
 }
 .container-bottom-main {
   width: 70%;
   height: 700px;
   margin: auto;
+}
+.first-row-bottom-main {
+  width: 100%;
+  height: 250px;
+  padding-top: 50px;
+}
+.text-et {
+  width: 300px;
+  padding-left: 100px;
+}
+.text-et h1{
+  font-size: 3em;
+  padding-bottom: 30px;
+}
+.text-et p {
+  line-height: 1.5em;
+}
+.second-row-bottom-main {
+  width: 100%;
+  height: 350px;
+}
+.second-text {
+  width: 40%;
+  float: left;
+}
+.second-row-bottom-main h1{
+  padding-top: 50px;
+}
+.second-row-bottom-main p{
+  padding-top: 50px;
+  padding-bottom: 60px;
+  line-height: 1.8em;
+}
+.second-row-bottom-main a{
+  padding-top: 60px;
+  text-decoration: none;
+}
+.second-row-bottom-main p:nth-child(4){
+  padding-top: 50px;
+  font-size: 13px;
+}
+.second-row-bottom-main a{
+  padding-top: 100px;
+  text-decoration: none;
+  border: 1px solid #FE775A;
+  background-color: #FE775A;
+  padding: 20px 40px;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+}
+.second-img {
+position: absolute;
+right: 0;
+}
+.second-img img{
+  max-width: 60%;
 }
