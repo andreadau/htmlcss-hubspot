@@ -529,7 +529,7 @@ body {
 }
 .second-img {
 position: absolute;
-right: 0;
+left: 70%;
 }
 .second-img img{
   max-width: 60%;
